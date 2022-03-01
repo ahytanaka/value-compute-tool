@@ -6,6 +6,13 @@
                 margin-left: 45%;
                 margin-right: auto;
             }
+            span{
+                margin-left: 45%;
+                margin-right: auto; 
+            }
+            #result div{
+                margin-left: 5%;
+            }
         </style>
     </head>
     <!-- 界面HTML代码 -->
@@ -15,10 +22,12 @@
             <p>请输入数值</p>
             <input type="text" id="add">
             <button id="addb">添加</button>
+            <button id="cleanb">清空</button>
+            <button id="delcb">删除选定数据</button>
         </div>
+        <span>输入的数据如下</span>
         <div id="result">
-            <p>输入的数据如下</p>
-           
+                     
         </div>
         <div>
             <h2>
@@ -33,6 +42,9 @@
             <p>最小值</p>
             <input id="mini" type="text">
             <button id="minb">计算最小值</button>
+            <p>最小值</p>
+            <input id="ceni" type="text">
+            <button id="cenb">计算最小值</button>
         </div>
         <!-- 读取js代码文件 -->
         <script src="./main.js"></script>
